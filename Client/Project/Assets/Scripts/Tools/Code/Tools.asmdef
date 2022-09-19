@@ -1,0 +1,20 @@
+{
+    "name": "Tools",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "DOTween.dll",
+        "EPPlus.dll",
+        "Excel.dll",
+        "ICSharpCode.SharpZipLib.dll",
+        "ILRuntime.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

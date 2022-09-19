@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 605897903
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: settings
+      Dependencies: {}
+    Info_1:
+      Name: atlas
+      Dependencies:
+        Dependency_0: image/main
+    Info_2:
+      Name: image/main
+      Dependencies: {}
+    Info_3:
+      Name: prefab/ui/start/loaddataview
+      Dependencies:
+        Dependency_0: image/main
+    Info_4:
+      Name: data
+      Dependencies: {}
+    Info_5:
+      Name: prefab/ui/main/mainview
+      Dependencies: {}

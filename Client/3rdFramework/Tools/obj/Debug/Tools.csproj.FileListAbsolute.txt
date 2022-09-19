@@ -1,0 +1,6 @@
+/Volumes/Project/Projects/BaseUnityProject/Client/Project/Assets/Plugins/Tools/Tools.dll
+/Volumes/Project/Projects/BaseUnityProject/Client/Project/Assets/Plugins/Tools/Tools.pdb
+/Volumes/Project/Projects/BaseUnityProject/Client/Project/Assets/Plugins/Tools/Tools.xml
+/Volumes/Project/Projects/BaseUnityProject/Client/3rdFramework/Tools/obj/Debug/Tools.csproj.CoreCompileInputs.cache
+/Volumes/Project/Projects/BaseUnityProject/Client/3rdFramework/Tools/obj/Debug/Tools.dll
+/Volumes/Project/Projects/BaseUnityProject/Client/3rdFramework/Tools/obj/Debug/Tools.pdb

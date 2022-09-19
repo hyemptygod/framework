@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7471200C-BD65-4696-B797-043BB81C6CAF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tools</RootNamespace>
+    <AssemblyName>ILRuntime</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Project\Assets\Plugins\ILRT\</OutputPath>
+    <DefineConstants>DEBUG;UNITY_EDITOR;UNITY_ANDROID;UNITY_IPHONE;NET_4_6;NET_STANDARD_2_0;USE_MDB;USE_PDB;DISABLE_ILRUNTIME_DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\Tools\ILRuntim.xml</DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Project\Assets\Plugins\ILRT\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Code\package.json" />
+    <None Include="Code\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code\Other\ByReferenceKeyComparer.cs" />
+    <Compile Include="Code\Other\DelegateExportAttribute.cs" />
+    <Compile Include="Code\Other\NeedAdaptorAttribute.cs" />
+    <Compile Include="Code\Other\ThreadSafeDictionary.cs" />
+    <Compile Include="Code\Other\UncheckedList.cs" />
+    <Compile Include="Code\Reflection\Extensions.cs" />
+    <Compile Include="Code\Reflection\ILRuntimeConstructorInfo.cs" />
+    <Compile Include="Code\Reflection\ILRuntimeFieldInfo.cs" />
+    <Compile Include="Code\Reflection\ILRuntimeMethodInfo.cs" />
+    <Compile Include="Code\Reflection\ILRuntimeParameterInfo.cs" />
+    <Compile Include="Code\Reflection\ILRuntimePropertyInfo.cs" />
+    <Compile Include="Code\Reflection\ILRuntimeType.cs" />
+    <Compile Include="Code\Reflection\ILRuntimeWrapperType.cs" />
+    <Compile Include="Code\Runtime\Extensions.cs" />
+    <Compile Include="Code\Runtime\Adaptors\CLRCrossBindingAdaptors.cs" />
+    <Compile Include="Code\Runtime\CLRBinding\BindingCodeGenerator.cs" />
+    <Compile Include="Code\Runtime\CLRBinding\BindingGeneratorExtensions.cs" />
+    <Compile Include="Code\Runtime\CLRBinding\CommonBindingGenerator.cs" />
+    <Compile Include="Code\Runtime\CLRBinding\ConstructorBindingGenerator.cs" />
+    <Compile Include="Code\Runtime\CLRBinding\FieldBindingGenerator.cs" />
+    <Compile Include="Code\Runtime\CLRBinding\MethodBindingGenerator.cs" />
+    <Compile Include="Code\Runtime\CLRBinding\ValueTypeBindingGenerator.cs" />
+    <Compile Include="Code\Runtime\Debugger\BreakPointContext.cs" />
+    <Compile Include="Code\Runtime\Debugger\BreakpointInfo.cs" />
+    <Compile Include="Code\Runtime\Debugger\DebugMessageType.cs" />
+    <Compile Include="Code\Runtime\Debugger\DebugService.cs" />
+    <Compile Include="Code\Runtime\Debugger\DebugSocket.cs" />
+    <Compile Include="Code\Runtime\Debugger\StackFrameInfo.cs" />
+    <Compile Include="Code\Runtime\Debugger\StepTypes.cs" />
+    <Compile Include="Code\Runtime\Debugger\VariableInfo.cs" />
+    <Compile Include="Code\Runtime\Debugger\DebuggerServer\DebuggerServer.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\CSBindBreakpoint.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\CSDeleteBreakpoint.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\CSEnumChildren.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\CSExecute.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\CSResolveIndexer.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\CSResolveVariable.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\CSStep.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\SCAttachResult.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\SCBindBreakpointResult.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\SCBreakpointHit.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\SCEnumChildrenResult.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\SCModuleLoaded.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\SCResolveVariableResult.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\SCStepComplete.cs" />
+    <Compile Include="Code\Runtime\Debugger\Protocol\SCThreadStarted.cs" />
+    <Compile Include="Code\Runtime\Enviorment\AppDomain.cs" />
+    <Compile Include="Code\Runtime\Enviorment\CLRRedirections.cs" />
+    <Compile Include="Code\Runtime\Enviorment\CrossBindingAdaptor.cs" />
+    <Compile Include="Code\Runtime\Enviorment\CrossBindingCodeGenerator.cs" />
+    <Compile Include="Code\Runtime\Enviorment\CrossBindingMethodInfo.cs" />
+    <Compile Include="Code\Runtime\Enviorment\DelegateManager.cs" />
+    <Compile Include="Code\Runtime\Enviorment\InvocationContext.cs" />
+    <Compile Include="Code\Runtime\Enviorment\ValueTypeBinder.cs" />
+    <Compile Include="Code\Runtime\Intepreter\DelegateAdapter.cs" />
+    <Compile Include="Code\Runtime\Intepreter\ILIntepreter.cs" />
+    <Compile Include="Code\Runtime\Intepreter\ILRuntimeException.cs" />
+    <Compile Include="Code\Runtime\Intepreter\ILTypeInstance.cs" />
+    <Compile Include="Code\Runtime\Intepreter\OpCodes\OpCode.cs" />
+    <Compile Include="Code\Runtime\Intepreter\OpCodes\OpCodeEnum.cs" />
+    <Compile Include="Code\Runtime\Stack\RuntimeStack.cs" />
+    <Compile Include="Code\Runtime\Stack\StackFrame.cs" />
+    <Compile Include="Code\Runtime\Stack\StackObject.cs" />
+    <Compile Include="Code\CLR\Method\CLRMethod.cs" />
+    <Compile Include="Code\CLR\Method\ExceptionHandler.cs" />
+    <Compile Include="Code\CLR\Method\ILMethod.cs" />
+    <Compile Include="Code\CLR\Method\IMethod.cs" />
+    <Compile Include="Code\CLR\TypeSystem\CLRType.cs" />
+    <Compile Include="Code\CLR\TypeSystem\ILGenericParameterType.cs" />
+    <Compile Include="Code\CLR\TypeSystem\ILType.cs" />
+    <Compile Include="Code\CLR\TypeSystem\IType.cs" />
+    <Compile Include="Code\CLR\Utils\Extensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ILRuntim.Mono.Cecil">
+      <HintPath>dll\ILRuntim.Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Mdb">
+      <HintPath>dll\ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Pdb">
+      <HintPath>dll\ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="UnityEngine">
+      <HintPath>dll\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

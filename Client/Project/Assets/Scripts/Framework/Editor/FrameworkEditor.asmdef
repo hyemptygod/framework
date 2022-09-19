@@ -1,0 +1,18 @@
+{
+    "name": "FrameworkEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:78b4f832936b5434c9699a1d97607389",
+        "GUID:d34fc0e57b3f44864a333f96a630af31",
+        "GUID:10c1333f5d42345f983a6f38c4e3178a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

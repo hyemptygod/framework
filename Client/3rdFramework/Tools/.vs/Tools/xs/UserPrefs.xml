@@ -1,0 +1,34 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Code/Log.cs">
+    <Files>
+      <File FileName="Code/MEC/CoroutineManager.cs" Line="1945" Column="26" />
+      <File FileName="Code/Log.cs" Line="103" Column="7" />
+      <File FileName="Code/UI/LoopScrollRect/LoopScrollRect.cs" Line="1383" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tools" expanded="True">
+            <Node name="Tools" expanded="True">
+              <Node name="References" expanded="True">
+                <Node name="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" selected="True" />
+              </Node>
+              <Node name="Code" expanded="True">
+                <Node name="MEC" expanded="True" />
+                <Node name="UI" expanded="True">
+                  <Node name="LoopScrollRect" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

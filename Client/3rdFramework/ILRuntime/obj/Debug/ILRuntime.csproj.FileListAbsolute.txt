@@ -1,0 +1,10 @@
+/Volumes/Project/Projects/BaseUnityProject/Client/3rdFramework/ILRuntime/obj/Debug/ILRuntime.csproj.AssemblyReference.cache
+/Volumes/Project/Projects/BaseUnityProject/Client/3rdFramework/ILRuntime/obj/Debug/ILRuntime.csproj.CoreCompileInputs.cache
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/Tools.dll
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/Tools.pdb
+/Volumes/Project/Projects/BaseUnityProject/Client/3rdFramework/ILRuntime/obj/Debug/ILRuntime.csproj.CopyComplete
+/Volumes/Project/Projects/BaseUnityProject/Client/Project/Assets/Plugins/ILRT/ILRuntime.dll
+/Volumes/Project/Projects/BaseUnityProject/Client/Project/Assets/Plugins/ILRT/ILRuntime.pdb
+/Volumes/Project/Projects/BaseUnityProject/Client/Project/Assets/Plugins/ILRT/ILRuntim.xml
+/Volumes/Project/Projects/BaseUnityProject/Client/3rdFramework/ILRuntime/obj/Debug/ILRuntime.dll
+/Volumes/Project/Projects/BaseUnityProject/Client/3rdFramework/ILRuntime/obj/Debug/ILRuntime.pdb

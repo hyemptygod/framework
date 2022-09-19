@@ -1,0 +1,12 @@
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/DeleteMetaFile/DeleteMetaFile/bin/Debug/netcoreapp3.1/DeleteMetaFile.deps.json
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/DeleteMetaFile/DeleteMetaFile/bin/Debug/netcoreapp3.1/DeleteMetaFile.runtimeconfig.json
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/DeleteMetaFile/DeleteMetaFile/bin/Debug/netcoreapp3.1/DeleteMetaFile.runtimeconfig.dev.json
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/DeleteMetaFile/DeleteMetaFile/bin/Debug/netcoreapp3.1/DeleteMetaFile.dll
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/DeleteMetaFile/DeleteMetaFile/bin/Debug/netcoreapp3.1/DeleteMetaFile.pdb
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/DeleteMetaFile/DeleteMetaFile/obj/Debug/netcoreapp3.1/DeleteMetaFile.csproj.AssemblyReference.cache
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/DeleteMetaFile/DeleteMetaFile/obj/Debug/netcoreapp3.1/DeleteMetaFile.AssemblyInfoInputs.cache
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/DeleteMetaFile/DeleteMetaFile/obj/Debug/netcoreapp3.1/DeleteMetaFile.AssemblyInfo.cs
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/DeleteMetaFile/DeleteMetaFile/obj/Debug/netcoreapp3.1/DeleteMetaFile.csproj.CoreCompileInputs.cache
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/DeleteMetaFile/DeleteMetaFile/obj/Debug/netcoreapp3.1/DeleteMetaFile.dll
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/DeleteMetaFile/DeleteMetaFile/obj/Debug/netcoreapp3.1/DeleteMetaFile.pdb
+/Volumes/Project/Projects/BaseUnityProject/Client/Tools/DeleteMetaFile/DeleteMetaFile/obj/Debug/netcoreapp3.1/DeleteMetaFile.genruntimeconfig.cache

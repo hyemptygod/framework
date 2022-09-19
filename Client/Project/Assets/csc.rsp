@@ -1,0 +1,7 @@
+-nowarn:CS0649
+-nowarn:CS0219
+-nowarn:CS0168
+-nowarn:CS0659
+-nowarn:CS0660
+-nowarn:CS0661
+-nowarn:CS0414

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 294125984
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 20c2b84b20742bf7c12e5729f2adcb2d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameAssets/Settings/GameSetting.json
+- Assets/GameAssets/Settings/TableItems.json
+Dependencies: []

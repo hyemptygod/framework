@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 491035103
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c288eac637f6b8cff6046ae494e17018
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dcf8ec33e287c30e1d5552dd2d8feac
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameAssets/Atlas/Main.spriteatlas
+Dependencies:
+- /Volumes/Project/Projects/BaseUnityProject/Client/Project/Assets/StreamingAssets/AssetBundles/OSX/image/main

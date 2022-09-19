@@ -1,0 +1,38 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Code/Runtime/Debugger/DebugService.cs">
+    <Files>
+      <File FileName="Code/Runtime/Intepreter/ILIntepreter.cs" Line="5152" Column="73" />
+      <File FileName="Code/Reflection/ILRuntimeType.cs" />
+      <File FileName="Code/Runtime/Enviorment/AppDomain.cs" Line="426" Column="38" />
+      <File FileName="Code/Runtime/Debugger/DebugService.cs" Line="1230" Column="53" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ILRuntime" expanded="True">
+            <Node name="ILRuntime" expanded="True" selected="True">
+              <Node name="References" expanded="True" />
+              <Node name="Code" expanded="True">
+                <Node name="CLR" expanded="True">
+                  <Node name="Method" expanded="True" />
+                </Node>
+                <Node name="Reflection" expanded="True" />
+                <Node name="Runtime" expanded="True">
+                  <Node name="Debugger" expanded="True" />
+                  <Node name="Enviorment" expanded="True" />
+                  <Node name="Intepreter" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

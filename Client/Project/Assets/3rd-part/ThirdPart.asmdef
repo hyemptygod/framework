@@ -1,0 +1,22 @@
+{
+    "name": "ThirdPart",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d34fc0e57b3f44864a333f96a630af31"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "ILRuntime.dll",
+        "ILRuntim.Mono.Cecil.dll",
+        "ILRuntime.Mono.Cecil.Mdb.dll",
+        "ILRuntime.Mono.Cecil.Pdb.dll",
+        "DOTween.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
